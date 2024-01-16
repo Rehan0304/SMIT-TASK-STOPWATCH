@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+.stopwatch{
+    border: 2px solid  black;
+    width: 40%;
+    max-width: 600px;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin:50px auto;
+    background:url(./assets.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.stopwatch h1{
+    color: white;
+    font-family: 'Salsa', cursive;
+}
+.timer{
+    margin: 8px 0px;
+    font-size: 50px;
+    color: white;
+    
+}
+/* .timer span{ */
+    /* font-family: 'Salsa', cursive; */
+/* } */
+.btn button{
+    font-family: 'Salsa', cursive;
+   padding:4px 8px ;
+   margin: 0px 4px;
+   border-radius: 13px;
+   border-color: white;
+   background: none;
+   color: white;
+   cursor: pointer;
+   font-weight: bolder;
+   width: 70px;
+   height: 35px;
+}
+.btn button:hover{
+    background: rgb(214 217 237 / 25%);
+    color: #c4bed9;
+}
